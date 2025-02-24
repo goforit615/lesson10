@@ -15,10 +15,10 @@ public class CalculatorTest {
 
         //Calc newCalc = calc;
 
-        //calc.description();   //디폴트 메소드 호출
+        calc.description();   //디폴트 메소드 호출
 
-        //int[] arr = {1,2,3,4,5};
-        //System.out.println(Calc.total(arr));  //정적 메소드 사용하기
+        int[] arr = {1,2,3,4,5};
+        System.out.println(Calc.total(arr));  //정적 메소드 사용하기
 
     }
 }
